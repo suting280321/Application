@@ -63,15 +63,6 @@
 .fixed-table-body{
 	margin-top: 30px;
 }
-/* .fixed-table-pagination{
-	margin-top: 55px;
-} */
-/* .pull-right pagination-detail{
-	margin-top: 65px;
-}
-.pull-right pagination{
-	margin-top: 65px;
-} */
 </style>
 </head>
 <body class="no-skin">
@@ -142,14 +133,6 @@
             </div>
 
             <div class="page-content">
-                        <%-- <%
-                        Integer count=(Integer)application.getAttribute("count");
-     if(count==null){
-         count=0;
-     }
-     application.setAttribute("count", count+1);
- %>
-  <div style="text-align:center;">您是第<%=count %>个访问用户</div> --%>
                             <%--这里是判断文件是否存在，所以这里的地址为文件的目录地址--%>
                            <%--  <jsp:include page="<%=link%>" /> --%>
                           <!--  <div class="fixed-table-body" style="height: 485px;">

@@ -94,7 +94,6 @@ public class ReadFile_v1 extends HttpServlet {
 		  } 
 		  //新建newjsonarray，以及后面的for循环，用于过滤部分空的jsonobject
         JSONArray newjsonarray = new JSONArray();
-        JSONObject newjsonobj0 = new JSONObject();
         for(int n=0;n<jsonarray.size();n++) {
         	if(jsonarray.getJSONObject(n).keySet().size()!=0) {
         		/*JSONObject newjsonobj  = new JSONObject();
